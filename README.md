@@ -1,6 +1,6 @@
-# ⚔ The Training Grounds
+# ⚔ to-doodle ranch
 
-A gamified task tracker where every quest you create hatches a pet companion. Complete quests to graduate your pets to the Hall of Fame!
+a gamified task tracker where every quest you create hatches a pet companion. complete quests to graduate your pets to the hall of fame!
 
 ## Local Setup
 
