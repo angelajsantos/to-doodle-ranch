@@ -3,7 +3,7 @@ set -euo pipefail
 
 APP_DIR="$HOME/to-doodle-ranch"
 APP_FILE="app.py"
-PY="$APP_DIR/.venv/bin/python"
+PY="$APP_DIR/venv/bin/python"
 
 cd "$APP_DIR"
 
@@ -13,7 +13,7 @@ git reset --hard origin/main
 
 # Ensure venv exists
 if [ ! -d ".venv" ]; then
-  python3 -m venv .venv
+  python3.11 -m venv venv
 fi
 
 # Install/update deps
