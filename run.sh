@@ -13,7 +13,7 @@ git reset --hard origin/main
 
 # Ensure venv exists
 if [ ! -d ".venv" ]; then
-  python3.12 -m venv .venv
+  python3 -m venv .venv
 fi
 
 # Install/update deps
